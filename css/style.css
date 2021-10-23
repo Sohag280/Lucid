@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px ;
+    line-height: 24px;
+    overflow-x: hidden;
+
+}
+h1, h2, h3 h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+
+}
+
+/********LUCID css code start here****/
+/*Global ttitle code start*/
+
+.title{
+    width: 100%;
+    padding: 0px 0px 0px;
+}
+.title h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-weight: 700;
+    color: #008dd5;
+    letter-spacing: 3px;
+}
+.title h2{
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+
+/*header section start here*/
+.header-section{
+    width: 100%;
+    background:url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+    
+}
+
+.menu{
+    width: 100%;
+}
+.menu .bg-light{
+    background: transparent !important;
+}
+
+
+.menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 0 20px;
+
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+     background: url(../images/bor.png) center bottom no-repeat;
+     background-size: auto;
+
+}
+.menu .navbar-light .navbar-nav .nav-link.active{
+     background: url(../images/bor.png) center bottom no-repeat;
+     background-size: auto;
+}
+/*banner code start here*/
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-weight: 700;
+    color: #008dd5;
+    letter-spacing: 3px;
+}
+.banner h2{
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #999;
+    letter-spacing: 1px;
+}
+
+.inner-btn{
+    width: 100%;
+    padding: 40px 0 0;
+}
+.inner-btn .btn-primary{
+    padding: 12px 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #008dd5;
+    border-color: #008dd5;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 1s;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+    color:#008dd5;
+    background-color: transparent;
+    border-color: #008dd5;
+}
+.inner-btn .btn-info{
+    padding: 12px 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: transparent;
+    border-color: #999;
+    border-radius: 5px;
+    transition: 1s;
+}
+.inner-btn .btn-info:hover, .inner-btn .btn-info:focus{
+    color:#fff;
+    background-color: #008dd5;
+    border-color: #008dd5;
+}
+/*feature-section code start*/
+.feature-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature-section .title{
+    text-align: center;
+}
+.inner-feature{
+    width: 100%;
+    padding: 35px 35px;
+    text-align: center;
+}
+
+.inner-feature .icon{
+    width: 110px ;
+    height: 110px ;
+    line-height: 110px;
+    margin: 0px auto;
+    border-radius: 100%;
+    border: 1px solid #eee;
+    transition: 0.5s;
+}
+.inner-feature:hover .icon{
+border-color:#008dd5 ;
+
+}
+
+.inner-feature h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    transition: 0.5s;
+}
+
+.inner-feature:hover h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #008dd5;
+}
+
+.inner-feature p{
+    font-size: 14px;
+    font-weight: 40 0;
+    color: #999;
+}
+
+/*aboutlong-section start*/
+.aboutlong-section{
+    width: 100%;
+    padding: 80px 0px;
+    border-top: 1px solid #eee;
+}
+
+.aboutlong-section .title h2{
+    margin-top: 40px;
+    font-size: 48 px;
+}
+.aboutlong-section p{
+    font-size: 20px;
+    color:#999;
+}
+.icon-list{
+    width: 100%;
+    display: block;
+    margin: 0px;
+    margin: 25px 0px 0px;
+}
+.icon-list li{
+    list-style: none;
+    font-size:18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0px 0px 10px;
+    
+}
+.icon-list li .fa{
+    width: 25px;
+    color: #008ed6;
+}
+
+.aboutshort-section{
+    width:100%;
+    padding: 80px 0px;
+    background: #f2f2f2;
+}
+
+.aboutshort-section .title{
+    margin: 40px 0px 0px;
+}
+
+.aboutshort-section h2{
+    font-size: 36px;
+}
+.aboutshort-section p{
+    font-size: 20px;
+    color:#999;
+}
+
+/*-------------------testimonial start---------------------*/
+.testimonial-section{
+    width: 100%;
+    padding: 60px 0px 60px;
+    background: url("../images/testi.png") center top no-repeat;
+    background: cover;
+}
+.testimonial-section .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.testimonial-section h2{
+    color: #fff;
+}
+.testimonial-section .owl-theme .item h4{
+    font-size: 20px;
+    line-height: 30px;
+    color:#fff ;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.testimonial-section .owl-theme .item .round{
+    width: 75px;
+    height: 100%;
+    border-radius: 100%;
+}
+.testimonial-section .owl-theme .item h5{
+    font-size: 16px;
+    line-height: 26px;
+    color:#fff;
+}
+.testimonial-section .owl-theme .item p{
+    font-size: 14px;
+    line-height: 24px;
+    color:#fff;
+    font-weight: 600;
+}
+.testimonial-section .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 65px;
+}
+/*-------------------testimonial end---------------------*/
+/*-------------------see section start--------*/
+.see-section{
+    width: 100%;
+    padding: 40px 0px;
+    background: #191919;
+}
+.see-section h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color:#fff;
+    text-align: center;
+}
+.see-section h2 span{
+    font-weight: 700;
+}
+.see-section .inner-btn{
+    width: 100%;
+}
+.see-section .inner-btn .btn-info{
+    
+    padding: 12px 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: transparent;
+    border-color: #999;
+    border-radius: 5px;
+    transition: 1s;
+}
+.see-section .inner-btn .btn-primary{
+
+    padding: 12px 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #008dd5;
+    border-color: #008dd5;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 1s;
+}
+.see-section .inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+    color:#008dd5;
+    background-color: transparent;
+    border-color: #008dd5;
+}
+.see-section .inner-btn .btn-info{
+    padding: 12px 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border-color: #999;
+    border-radius: 5px;
+    transition: 1s;
+}
+.see-section .inner-btn .btn-info:hover, .see-section .inner-btn .btn-info:focus{
+    color:#fff;
+    background-color: #008dd5;
+    border-color: #008dd5;
+}
+
+.price-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.price-section .title{
+    text-align: center;
+}
+.price-box{
+    width: 100%;
+    border: 1px solid #eee ;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s;
+}
+.price-box .price-head{
+    width: 100%;
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+    transition: 0.5s;
+}
+.price-head h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0px;
+}
+.price-box .price-inner{
+    width: 100%;
+    padding: 30px 0px;
+    border-bottom: 1px solid #eee;
+    transition: 0.5s;
+}
+.price-box .price-inner h1{
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0px;
+    transition: 0.5s;
+}
+.price-box .price-inner h1 sup {
+    top: -0.4em;
+    font-size: 32px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.price-box .price-inner p{
+    font-size: 14px;
+    color: #999;
+    margin:  6px 0px 26px 0px;
+    transition: 0.5s;
+}
+.price-content{
+    width: 100%;
+    padding: 35px 30px;
+}
+.price-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #999;
+
+}
+
+.price-content p a{
+    color: #008dd5;
+    font-weight: 700;
+}
+
+.price-content .btn-info{
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #008dd5;
+    background-color: transparent;
+    border-color: #999;
+    border-radius: 5px;
+    transition: 1s;
+}
+.price-box:hover .price-head h2{
+    color: #008dd5;
+}
+
+.price-box:hover .price-inner{
+    background: #008dd5;
+}
+
+.price-box:hover .price-inner h1, .price-box:hover .price-inner p{
+    color: #fff;
+}
+.price-box:hover .price-content .btn-info{
+    color: #fff;
+    background-color: #008dd5;
+    border-color: #008dd5;
+}
+.contact-us{
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: #ededed;
+}
+.contact-us .title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-us .info{
+    width: 100%;
+    text-align: center;
+}
+.contact-us .info .fa{
+    font-size: 32px;
+    color: #008dd5;
+    margin-bottom: 20px;
+}
+.contact-us .info p{
+    font-size: 14px;
+    color: #999;
+}
+.main-form{
+    width: 100%;
+    padding: 50px 60px 40px;
+    margin-top: 40px ;
+    background: #191919;
+    position: relative;
+    margin-bottom: -70px;
+    z-index: 1;
+}
+.main-form .form-control{
+    width: 100%;
+    padding: 10px;
+    color: #999;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.text-right{
+ text-align: right;
+}
+.main-form .btn-primary{
+    padding: 15px 35px;
+    color: #fff;
+    background-color: #008ed6;
+    border-color: 1px solid #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 1s;
+    letter-spacing: 3px;
+}
+.main-form .btn-primary:hover, .main-form .btn-primary:focus{
+    color: #008ed6;
+    background-color: transparent;
+    border-color: #008ed6;
+}
